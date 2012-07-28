@@ -4,7 +4,15 @@ Contain some useful debuging/util functions that will be useful in daily program
 
 ## Usage
 
-FIXME
+`ls`
+
+```clojure
+#<core$ls clj.debug.core$ls@3823bdd1>
+user=> (ls "clojure.set")
+(rename-keys union select project superset? join subset? intersection map-invert difference rename index)
+user=> (ls 'clojure.set)
+(rename-keys union select project superset? join subset? intersection map-invert difference rename index)
+```
 
 ## License
 
